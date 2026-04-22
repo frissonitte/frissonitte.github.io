@@ -1,6 +1,6 @@
 ---
 title: AI-Powered Pathology Assistant - WBC Analyzer Changelog
-date: 2026-04-22 17:30:00 +0300
+date: 2026-04-22 09:30:00 +0300
 description: Versioned update notes for the WBC Analyzer project covering model improvements, domain adaptation, and deployment changes.
 categories: [Portfolio, Projects]
 tags: [wbc-analyzer, pathology-ai, machine-learning, domain-shift, tta, xai, flask-api, changelog]
