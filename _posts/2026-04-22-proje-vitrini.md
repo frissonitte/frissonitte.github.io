@@ -6,37 +6,67 @@ categories: [Portfolio, Projects]
 tags: [projects, machine-learning, backend, automation, etl]
 ---
 
-This post is a portfolio index of my core projects with technical scope and impact.
+This page is organized for quick screening with a consistent format:
+
+- Duration
+- Tech
+- Impact
+- Links
 
 ## Project Cards
 
-### WBC Analyzer: AI-Powered Pathology Assistant (Jan 2026 - Apr 2026)
+### WBC Analyzer: AI-Powered Pathology Assistant
 
-- Built an end-to-end WBC classification system with DenseNet121, custom preprocessing, and attention-based enhancements.
-- Achieved **98.5% validation accuracy** and **89.6% out-of-distribution performance** on TestB data from unseen hardware.
-- Delivered a Flask REST API with input validation, structured logging, and fault-tolerant error handling.
-- Reached approximately **200 ms average response time** for real-time clinical decisions.
-- Integrated Grad-CAM and a fault-tolerant multi-model LLM agent (GPT-4o and Gemini) to improve explainability and detect shortcut learning behavior.
+- Duration: Jan 2026 - Apr 2026
+- Tech: DenseNet121, Flask REST API, Grad-CAM, GPT-4o, Gemini
+- Impact:
+	- Achieved **98.5% validation accuracy** and **89.6% OOD performance** on unseen hardware data.
+	- Delivered approximately **200 ms** average API response time for near real-time usage.
+	- Improved explainability with Grad-CAM and multi-model LLM review flows.
+- Links:
+	- GitHub: Available on request
+	- Demo: Available on request
 
-### Popcorn Wagon: Hybrid Movie Recommendation System (Jan 2025 - May 2025)
+### Popcorn Wagon: Hybrid Movie Recommendation System
 
-- Designed a hybrid recommendation engine combining collaborative filtering (TruncatedSVD) and content-based methods via TMDB API over MovieLens data.
-- Built a scalable ETL pipeline with Pandas and Dask for large dataset processing.
-- Implemented similarity search with Spotify Annoy, reducing recommendation latency to milliseconds.
+- Duration: Jan 2025 - May 2025
+- Tech: TruncatedSVD, TMDB API, MovieLens, Pandas, Dask, Spotify Annoy
+- Impact:
+	- Built a hybrid recommendation strategy combining collaborative and content-based methods.
+	- Processed large datasets with a scalable ETL pipeline.
+	- Reduced recommendation latency to millisecond level using approximate nearest neighbors.
+- Links:
+	- GitHub: Available on request
+	- Demo: Available on request
 
-### Marketplace Automation Core (Dec 2025 - Mar 2026)
+### Marketplace Automation Core
 
-- Built an anonymized Python automation core for marketplace workflows using Appium and Selenium.
-- Designed a modular config-driven architecture separating reusable logic from platform-specific selectors and flows.
-- Implemented fault-tolerant UI interaction patterns, including retry handling, scroll adjustments, and reusable execution flows.
+- Duration: Dec 2025 - Mar 2026
+- Tech: Python, Appium, Selenium, UiAutomator2
+- Impact:
+	- Built a modular automation core with config-driven flow definitions.
+	- Separated reusable execution logic from platform-specific selectors.
+	- Improved stability with retry handling, scroll adjustments, and reusable execution patterns.
+- Links:
+	- GitHub: Available on request
+	- Demo: Private
 
-### Portal Cleaner Ultimate: Desktop RPA Suite (Jun 2025 - Jul 2025)
+### Portal Cleaner Ultimate: Desktop RPA Suite
 
-- Architected a modular desktop RPA tool automating complex ERP workflows.
-- Reduced daily manual workload by **over 90%** (from 4-6 hours to under 30 minutes).
-- Built a local mock ERP test harness (HTML/JS) for offline end-to-end testing with simulated dynamic states and injected server errors.
-- Designed a fault-tolerant execution engine with dynamic retry logic and centralized error logging.
-- Built a multithreaded GUI for responsive background processing of XML, XLSX, TXT data and Selenium tasks.
+- Duration: Jun 2025 - Jul 2025
+- Tech: Python, Selenium, Tkinter, Multithreading, HTML/JS test harness
+- Impact:
+	- Reduced daily manual workload by **90%+** (4-6 hours to under 30 minutes).
+	- Built a local mock ERP environment to run offline end-to-end reliability tests.
+	- Implemented dynamic retry and centralized error logging for fault-tolerant execution.
+	- Maintained responsive UI under heavy background ingestion and scraping tasks.
+- Links:
+	- GitHub: Available on request
+	- Demo: Internal
+
+## CV Download
+
+- PDF CV: Please contact me if you want the latest signed PDF version.
 
 ## Professional Experience Highlights
 

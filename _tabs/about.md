@@ -46,5 +46,11 @@ I have built end-to-end AI and automation systems with measurable outcomes, incl
 
 - Turkiye (Remote)
 
-> Contact: emirhan0yildirim@gmail.com | linkedin.com/in/emirhan-yildirim619 | github.com/frissonitte
+## Contact
+
+- Email: [emirhan0yildirim@gmail.com](mailto:emirhan0yildirim@gmail.com)
+- LinkedIn: [linkedin.com/in/emirhan-yildirim619](https://www.linkedin.com/in/emirhan-yildirim619)
+- GitHub: [github.com/frissonitte](https://github.com/frissonitte)
+
+> Open to remote roles and collaborations in ML, backend, and AI product development.
 {: .prompt-info }
