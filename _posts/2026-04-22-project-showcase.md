@@ -24,7 +24,7 @@ This page is organized for quick screening with a consistent format:
 	- Delivered approximately **200 ms** average API response time for near real-time usage.
 	- Improved explainability with Grad-CAM and multi-model LLM review flows.
 - Links:
-	- GitHub: Available on request
+	- [GitHub](https://github.com/frissonitte/wbc-analyzer-final)
 	- Demo: Available on request
 
 ### Popcorn Wagon: Hybrid Movie Recommendation System
@@ -36,19 +36,18 @@ This page is organized for quick screening with a consistent format:
 	- Processed large datasets with a scalable ETL pipeline.
 	- Reduced recommendation latency to millisecond level using approximate nearest neighbors.
 - Links:
-	- GitHub: Available on request
+	- [GitHub](https://github.com/frissonitte/popcorn-wagon)
 	- Demo: Available on request
 
-### Marketplace Automation Core
+### Listing Pilot Mobile Automation Suite for C2C Marketplaces
 
 - Duration: Dec 2025 - Mar 2026
 - Tech: Python, Appium, Selenium, UiAutomator2
 - Impact:
-	- Built a modular automation core with config-driven flow definitions.
-	- Separated reusable execution logic from platform-specific selectors.
-	- Improved stability with retry handling, scroll adjustments, and reusable execution patterns.
+	- Built a platform-agnostic, config-driven Appium automation suite utilizing advanced UI interaction algorithms (spatial pairing, overlap detection) and real-time Telegram alerting.
+	- Successfully automated the management of ~1,000 active listings across major C2C marketplaces, eliminating hours of manual, repetitive workload every week.
 - Links:
-	- GitHub: Available on request
+	- [GitHub](https://github.com/frissonitte/listing-pilot)
 	- Demo: Private
 
 ### Portal Cleaner Ultimate: Desktop RPA Suite
@@ -61,7 +60,7 @@ This page is organized for quick screening with a consistent format:
 	- Implemented dynamic retry and centralized error logging for fault-tolerant execution.
 	- Maintained responsive UI under heavy background ingestion and scraping tasks.
 - Links:
-	- GitHub: Available on request
+	- [GitHub](https://github.com/frissonitte/portal-cleaner-ultimate)
 	- Demo: Internal
 
 ## CV Download
