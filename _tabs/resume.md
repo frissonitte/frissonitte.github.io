@@ -56,12 +56,18 @@ Jan 2025 - May 2025
 - Built scalable ETL with Pandas and Dask.
 - Implemented similarity search with Spotify Annoy for millisecond-level latency.
 
-### Marketplace Automation Core
+### Listing Pilot: Mobile Automation Suite for C2C Marketplaces
 Dec 2025 - Mar 2026
 
-- Built anonymized Python automation core using Appium and Selenium.
-- Designed modular config-driven architecture separating generic automation logic from platform-specific selectors.
-- Implemented retry handling, scroll adjustments, and reusable task flows for stable execution.
+- Developed a Python and Appium-based mobile automation suite to manage 1,000 active listings across major Turkish C2C marketplaces (Dolap,
+Gardrops), eliminating hours of weekly manual operational workload.
+- Engineered a platform-agnostic, config-driven core architecture that fully
+isolates reusable automation logic from dynamic UI selectors and Appium
+capabilities via JSON profiles.
+- Implemented advanced UI interaction patterns, including spatial title-toprice pairing using coordinate math, sticky-element overlap detection, and
+multi-ID fallback mechanisms to ensure high execution reliability.
+- Integrated automated Telegram alerting for real-time execution monitoring,
+workflow completion status, and unrecoverable error handling.
 
 ### Portal Cleaner Ultimate | Desktop RPA Suite
 Jun 2025 - Jul 2025
