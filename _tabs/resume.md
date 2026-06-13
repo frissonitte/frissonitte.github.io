@@ -16,11 +16,14 @@ Software Developer | Machine Learning, Backend & AI Products
 
 ## Summary
 
-Final-year Information Systems Engineering student and Python Developer specializing in Machine Learning, Backend systems, and AI Products.
+Information Systems Engineering graduate (Sakarya University, Aug 2026) and Python Developer specializing in Machine Learning, Backend systems, and AI Products.
 Experienced in transitioning models from prototype notebooks to production-ready environments.
 Delivered measurable impact through an end-to-end AI pathology system (98.5% baseline accuracy), scalable ETL pipelines, and fault-tolerant backend workflows that reduced manual operational workload by over 90%.
 
 ## Experience
+
+### Software Engineer Intern | Esbi Bilişim ve Telekomünikasyon
+Jul 2026 - Aug 2026 | Sakarya, Turkiye
 
 ### Operations Manager and Python Developer | zidorun (Personal Venture)
 Jun 2025 - Present | Sakarya, Turkiye
@@ -40,14 +43,14 @@ Jun 2025 - Jul 2025 | Sakarya, Turkiye
 
 ## Projects
 
-### WBC Analyzer: AI-Powered Pathology Assistant
+### WBC Analyzer: Robust OOD Generalization in Peripheral Blood Smears
 Jan 2026 - Apr 2026 | Sakarya, Turkiye
 
-- Built end-to-end WBC classification using DenseNet121, custom preprocessing, and attention enhancements.
-- Achieved 98.5% validation accuracy and 89.6% out-of-distribution performance on TestB.
-- Built Flask REST API with validation, structured logging, and fault-tolerant error handling.
-- Achieved approximately 200 ms average response time.
-- Integrated Grad-CAM and a multi-model LLM agent (GPT-4o and Gemini) for explainability and shortcut-learning detection.
+- Built end-to-end WBC classification using DenseNet121 with custom WBCAttention and MedSwish layers.
+- Achieved 98.53% in-distribution accuracy and 89.05% OOD accuracy (+32.09 pp over unadapted baseline) via retraining-free inference adaptation.
+- Designed 5-step Medical Enhanced Filter (MEF) preprocessing pipeline for cross-device normalization.
+- Built Flask REST API with Grad-CAM and autonomous multi-modal LLM agent (GPT-4o / Gemini 2.5 Flash) for explainability and shortcut-learning detection.
+- Published academic preprint on ResearchGate (DOI: 10.13140/RG.2.2.34201.79208).
 
 ### Popcorn Wagon: Hybrid Movie Recommendation System
 Jan 2025 - May 2025
@@ -55,6 +58,14 @@ Jan 2025 - May 2025
 - Built hybrid recommendation system with TruncatedSVD collaborative filtering and content-based methods via TMDB API over MovieLens data.
 - Built scalable ETL with Pandas and Dask.
 - Implemented similarity search with Spotify Annoy for millisecond-level latency.
+
+### Scalable Kinematic Action Recognition — Industry 5.0 (ISE446)
+Sep 2025 - Jun 2026 | Sakarya, Turkiye
+
+- Built full end-to-end pipeline for classifying factory operator actions from 10 GB motion-capture sensor data (132 channels, 200 Hz).
+- Engineered out-of-core Dask ingestion (CSV → Parquet, 3× compression), rolling-window feature extraction (9.7M rows → 97,612 windows × 528 features), and streaming classification with ADWIN concept drift detection (58-window / ~290 ms detection latency).
+- Achieved RandomForest Macro F1 ≈ 0.9995 with 1.3s train time and 8.7 MB RAM on binary classification subset.
+- Competition notebook placed **1st on private leaderboard** (0.94169 accuracy) using LightGBM + RandomForest ensemble.
 
 ### Listing Pilot: Mobile Automation Suite for C2C Marketplaces
 Dec 2025 - Mar 2026

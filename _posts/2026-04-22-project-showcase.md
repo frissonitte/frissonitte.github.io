@@ -15,17 +15,18 @@ This page is organized for quick screening with a consistent format:
 
 ## Project Cards
 
-### WBC Analyzer: AI-Powered Pathology Assistant
+### WBC Analyzer: Robust OOD Generalization in Peripheral Blood Smears
 
 - Duration: Jan 2026 - Apr 2026
-- Tech: DenseNet121, Flask REST API, Grad-CAM, GPT-4o, Gemini
+- Tech: DenseNet121, WBCAttention, MedSwish, MEF Preprocessing, Flask REST API, Grad-CAM, GPT-4o, Gemini 2.5 Flash
 - Impact:
-	- Achieved **98.5% validation accuracy** and **89.6% OOD performance** on unseen hardware data.
-	- Delivered approximately **200 ms** average API response time for near real-time usage.
-	- Improved explainability with Grad-CAM and multi-model LLM review flows.
+	- Achieved **98.53% in-distribution accuracy** and **89.05% OOD accuracy** on unseen hardware data (**+32.09 pp** over unadapted baseline, retraining-free).
+	- Designed 5-step Medical Enhanced Filter (MEF) pipeline for cross-device staining and exposure normalization.
+	- Integrated autonomous multi-modal LLM agent (GPT-4o / Gemini fallback) for Grad-CAM-based shortcut detection.
+	- Published academic preprint ([DOI: 10.13140/RG.2.2.34201.79208](https://doi.org/10.13140/RG.2.2.34201.79208)).
 - Links:
 	- [GitHub](https://github.com/frissonitte/wbc-analyzer-final)
-	- Demo: Available on request
+	- [Live Demo](https://emirhanyildirim.me/wbc-analyzer/)
 
 ### Popcorn Wagon: Hybrid Movie Recommendation System
 
@@ -38,6 +39,19 @@ This page is organized for quick screening with a consistent format:
 - Links:
 	- [GitHub](https://github.com/frissonitte/popcorn-wagon)
 	- Demo: Available on request
+
+### Scalable Kinematic Action Recognition — Industry 5.0 (ISE446)
+
+- Duration: Sep 2025 - Jun 2026
+- Tech: Python, Dask, Scikit-Learn, River (ARF + ADWIN), Parquet, LightGBM, RandomForest
+- Impact:
+	- Processed 10 GB proprietary motion-capture CSV into Parquet (3× compression) via out-of-core Dask pipeline.
+	- Extracted 97,612 sliding-window feature vectors (528 features) from 9.7M sensor rows.
+	- RandomForest binary classifier: Macro F1 ≈ **0.9995**, 1.3s train, 8.7 MB RAM.
+	- Adaptive Random Forest streaming: **81 windows/sec**, drift detected in ~58 windows (~290 ms) via ADWIN.
+	- Competition notebook placed **1st on private leaderboard** (0.94169 accuracy) using LightGBM + RF ensemble.
+- Links:
+	- GitHub: Available on request (dataset proprietary)
 
 ### Listing Pilot Mobile Automation Suite for C2C Marketplaces
 
@@ -68,6 +82,10 @@ This page is organized for quick screening with a consistent format:
 - PDF CV: Please contact me if you want the latest signed PDF version.
 
 ## Professional Experience Highlights
+
+### Software Engineer Intern - Esbi Bilişim ve Telekomünikasyon (Jul 2026 - Aug 2026)
+
+- Software engineering internship focused on backend and systems work.
 
 ### Operations Manager and Python Developer - zidorun (Jun 2025 - Present)
 
