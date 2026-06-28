@@ -1,31 +1,37 @@
 <style>
   #rag-toggle {
     position: fixed;
-    bottom: 2rem;
-    right: 2rem;
-    width: 52px;
-    height: 52px;
+    bottom: 1.5rem;
+    right: 1.5rem;
+    width: 64px;
+    height: 64px;
     border-radius: 50%;
     background: #4a90d9;
     color: #fff;
     border: none;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     cursor: pointer;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    box-shadow: 0 4px 16px rgba(74,144,217,0.5);
     z-index: 9999;
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: background 0.2s;
+    transition: background 0.2s, transform 0.2s;
+    animation: rag-pulse 2.5s ease-in-out 3;
   }
-  #rag-toggle:hover { background: #357abd; }
+  #rag-toggle:hover { background: #357abd; transform: scale(1.08); }
+
+  @keyframes rag-pulse {
+    0%, 100% { box-shadow: 0 4px 16px rgba(74,144,217,0.5); }
+    50% { box-shadow: 0 4px 28px rgba(74,144,217,0.9); transform: scale(1.06); }
+  }
 
   #rag-panel {
     position: fixed;
     bottom: 5.5rem;
-    right: 2rem;
-    width: 340px;
-    max-height: 480px;
+    right: 1.5rem;
+    width: 360px;
+    max-height: 520px;
     background: var(--card-bg, #1e1e2e);
     border: 1px solid var(--border-color, #333);
     border-radius: 12px;
@@ -36,6 +42,11 @@
     overflow: hidden;
   }
   #rag-panel.open { display: flex; }
+
+  @media (max-width: 480px) {
+    #rag-toggle { bottom: 1rem; right: 1rem; width: 56px; height: 56px; font-size: 1.4rem; }
+    #rag-panel { right: 0; left: 0; bottom: 5rem; width: 100%; border-radius: 12px 12px 0 0; max-height: 70vh; }
+  }
 
   #rag-header {
     padding: 0.75rem 1rem;
